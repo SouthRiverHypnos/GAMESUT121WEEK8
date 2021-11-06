@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - ClickButton
   - GridSystem
+  - InWay
+  - Tile
   layers:
   - Default
   - TransparentFX
