@@ -20,6 +20,7 @@ public class Collectible : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().enabled = false;
             GetComponent<PolygonCollider2D>().enabled = false;
+            collision.gameObject.GetComponent<SpriteRenderer>().color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
         }
     }
 

@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Week8/003/ProcGen003.unity
+    guid: 94fc92ef2df5a75458776cfb5ca0dbdb
   m_configObjects: {}
