@@ -26,6 +26,7 @@ public class PositionSystem : MonoBehaviour
         public GameObject character;
         public GameObject[] collectible;
 
+    public GameObject text;
 
 
     void Start()
@@ -151,13 +152,15 @@ public class PositionSystem : MonoBehaviour
             {
                 SetSeed();
 
-                /*if (animatedPath)
-                    StartCoroutine(CreatePathRoutine());
+            /*if (animatedPath)
+                StartCoroutine(CreatePathRoutine());
 
-                else
-                    CreatePath();
-            */
+            else
+                CreatePath();
+        */
 
+
+            text.SetActive(false);
             DrawRoom();
             Instantiate(character, new Vector3(-12.43f, 10.87f, 0), Quaternion.identity);
             for (int i = 0; i < 5; i++)
